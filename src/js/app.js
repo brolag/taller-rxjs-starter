@@ -104,13 +104,26 @@
 // )
 // .subscribe(); 
 
+/**
+ * Paso 7
+ **/ 
+// import { interval, fromEvent } from 'rxjs';
+// import { switchMap } from 'rxjs/operators';
+
+// fromEvent(document, 'click')
+//   .pipe(
+//     // restart counter on every click
+//     switchMap(() => interval(1000))
+//   )
+//   .subscribe(console.log);
+
 
 
 /***** Parte IV *****/
 
 
 /**
- * Paso 67
+ * Paso 8
  **/ 
 // import { ajax } from 'rxjs/ajax';
 // import { map, catchError, pluck } from 'rxjs/operators';
